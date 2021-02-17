@@ -1,0 +1,135 @@
+.fixed{
+    width: 1214px;
+    margin: auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.text-left{
+    text-align-last: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+
+/* start css */
+.header-section{
+   border-top: 3px solid #3498db;
+}
+.logo{
+    width: 50%;
+}
+figure h1{
+    color: blue;
+}
+.menu{
+    width: 50%;
+}
+nav ul{
+    text-align: center;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #444;
+    font-size: 20px;
+    padding: 0 13px;
+    line-height: 85px;
+}
+/* banner-section */
+.banner-section{
+    background: url(./img/company-culture-1024x683.jpg) no-repeat;
+    background-size: cover;
+    padding: 262px 0;
+    color: #fff;
+
+}
+.banner-section h1{
+    font-size: 55px;
+}
+.button{
+    display: inline-block;
+    color: #fff;
+    background-color: #3498db;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* service-section */
+.service-section{
+    padding: 50px 0;
+}
+.s-video{
+    width: 45%;
+}
+.r-content{
+    width: 50%;
+    margin-top: -21px;
+}
+.bold{
+    font-weight: 500;
+    font-size: 30px;
+}
+/* contact-section */
+.contact-section{
+    background: #f6f6f6;
+    padding: 40px 0;
+}
+.contact-title h1{
+    font-weight: 500;
+}
+.contact-items{}
+.address{
+    width: 50%;
+
+}
+.address .arrow{
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.address .arrow::after{
+    content: "\f0dd";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    display: inline-block;
+    position: absolute;
+    top: -12px;
+    left: -20px;
+    font-size: 26px;
+}
+
+
+.contact-ss{
+    width: 50%;
+}
+.input{
+    width: 300px;
+    margin-bottom: 10px;
+    outline: none;
+}
+/*  footer-section*/
+.footer-section{
+    background: #2c3e50;
+    padding: 30px 0;
+    color: #fff;
+}
